@@ -1,0 +1,71 @@
+/* styles.css */
+body {
+    flex-direction: column;
+    background-color: #222; /* Dark background color */
+    color: #fff; /* Text color */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Font family */
+    padding: 20px; /* Add padding to the body */
+    margin: 0; /* Reset margin */
+  }
+  
+  .container {
+    max-width: 800px; /* Limit content width */
+    margin: 0 auto; /* Center content horizontally */
+  }
+  
+  .dark-bg {
+    background-color: #333; /* Dark background color for headings */
+    padding: 10px; /* Add padding to headings */
+    border-radius: 5px; /* Rounded corners for headings */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Box shadow for headings */
+    color: #fff; /* Text color for headings */
+  }
+  
+  h1 {
+    font-size: 28px; /* Heading font size */
+    margin: 0; /* Reset margin for headings */
+    text-align: center; /* Center align headings */
+  }
+  
+  button {
+    background-color: #007bff; /* Blue button background color */
+    color: #fff; /* Button text color */
+    padding: 12px 24px; /* Button padding */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Change cursor on hover */
+    margin: 10px 0; /* Add margin to buttons */
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underlines from links */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove bullet points from lists */
+    padding: 0; /* Remove default list padding */
+  }
+  
+  li {
+    margin-bottom: 10px; /* Add margin between list items */
+  }
+  
+  input[type="number"] {
+    padding: 10px; /* Input padding */
+    width: 100%; /* Input width */
+    border: 1px solid #ccc; /* Input border */
+    border-radius: 5px; /* Rounded corners for inputs */
+  }
+  
+  /* Add more styles as needed for your specific layout */
+  

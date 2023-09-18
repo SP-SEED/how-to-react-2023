@@ -1,19 +1,25 @@
-/* YourCustomGrid.css */
-
 .custom-grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Define the number of columns */
-    grid-gap: 20px; /* Adjust the gap between grid items */
-    background-image: url('your-background-image.jpg'); /* Set your background image */
-    background-size: cover; /* Adjust background size as needed */
-    padding: 20px;
-  }
-  
-  .grid-item {
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Adjust background color and opacity */
-    border: 1px solid #ccc; /* Add borders or other styling as needed */
-  }
-  
-  /* Add more styles as per your design requirements */
-  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  background-size: cover;
+  padding: 20px;
+}
+
+.grid-item {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Optional: Add hover effect */
+.grid-item:hover {
+  background-color: rgba(255, 255, 255, 1);
+  transform: translateY(-5px);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
